@@ -1,0 +1,101 @@
+body{
+  min-width: 800px;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+.newnavbar li, .bottomnav li{
+  float:left;
+}
+
+.newnavbar a, .newnavbarright a {
+  text-decoration: none;
+  color: gray;
+  display:block;
+  padding:8px;
+}
+
+.newnavbarright li, .bottomnavright li{
+  float: right;
+}
+
+.newnavbarright img{
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  position:relative;
+  bottom: 14px
+}
+
+.centerdiv {
+}
+
+#clocks{
+  display:block;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.search{
+  position:relative;
+  top: 15px;
+}
+
+
+#searchbar {
+  width: 500px;
+  height: 30px;
+  display:block;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 300;
+  background:url("google-microphone-logo.jpg") no-repeat 100% 100%;
+  background-size:45px;
+}
+
+#notifications{
+  width:.5em;
+  height:.5em;
+  color: white;
+  background-color: red;
+  font-weight: 600;
+  border-radius: 0.8em;
+  text-align: center;
+  line-height: 1em;
+  margin: 0 5px 0 5px;
+
+}
+
+.searchbutton{
+  background-color: #DCDCDC;
+  font-size: 15px;
+  color: #696969;
+  padding: 5px;
+  margin: 5px;
+
+}
+.searchbuttondiv{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bottomnav{
+  position:fixed;
+  bottom: 0px;
+  left:0;
+  width: 100%;
+  height: 35px;
+  background-color:#DCDCDC;
+}
+
+.bottomnav a, .bottomnavright a{
+  text-decoration: none;
+  color: gray;
+  display:block;
+  padding: 0px 8px 10px 8px;
+  line-height: 0;
+
+}
